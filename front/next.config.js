@@ -11,11 +11,13 @@ const nextConfig = {
 			{
 				source: '/api/:path*',
 				// destination: 'https://cinema-api-production.up.railway.app/:path*',
-				destination: 'http://localhost:4200/api/:path*',
+				// destination: 'http://localhost:4200/api/:path*',
+				destination: 'http://45.132.240.237/api/:path*',
 			},
 			{
 				source: '/uploads/:path*',
-				destination: 'http://localhost:4200/uploads/:path*',
+				destination: 'http://45.132.240.237/uploads/:path*',
+				// destination: 'http://localhost:4200/uploads/:path*',
 
 				// destination:'https://cinema-api-production.up.railway.app/uploads/:path*',
 			},
